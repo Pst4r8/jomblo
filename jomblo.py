@@ -54,6 +54,7 @@ def toket():
 	else:
 		print "\033[31mToken salah cokk !!\033[0m"
 		time.sleep(2)
+                os.system("xdg-open https://wa.me/6281231381488?text=Mas+ganteng+minta+tokennya+dong+:V")
 		os.system('clear')
 		toket()
 		
